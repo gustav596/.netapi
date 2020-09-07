@@ -23,7 +23,7 @@ namespace Test.Controllers
         // GET: api/Countries
         [HttpGet]
         public IEnumerable<Country> GetCountry()
-        {
+        { 
             return _context.Country;
         }
     }
